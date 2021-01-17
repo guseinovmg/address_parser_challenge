@@ -125,3 +125,8 @@ console.log(hp.isHouseIncluded("77"))
 console.log(hp.isHouseIncluded("36"))
 console.log(hp.isHouseIncluded("22"))
 console.log(hp.isHouseIncluded("101"))
+
+hp = new HousesParser("4а, 5-7 четные 42+ нечетные с 21 и вся улица до конца");
+console.log(hp.isHouseIncluded("19"))
+console.log(hp.isHouseIncluded("6"))
+console.log(hp.isHouseIncluded("22"))
